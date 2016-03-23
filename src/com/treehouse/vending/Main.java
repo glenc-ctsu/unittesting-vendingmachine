@@ -1,4 +1,4 @@
-package com.teamtreehouse.vending;
+package com.treehouse.vending;
 
 public class Main {
 
@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
         Notifier notifier = new Notifier() {
 
-            @Override
+            @Override 
             public void onSale(Item item) {
                 System.out.printf("Sold item %s for %s",
                         item.getName(),
@@ -20,7 +20,7 @@ public class Main {
 
             System.out.println("Adding money");
             machine.addMoney(75);
-
+ 
             System.out.println("Vending");
             machine.vend("A1");
         } catch (InvalidLocationException ile) {

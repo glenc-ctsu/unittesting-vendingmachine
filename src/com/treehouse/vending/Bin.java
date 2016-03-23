@@ -1,4 +1,4 @@
-package com.teamtreehouse.vending;
+package com.treehouse.vending;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;

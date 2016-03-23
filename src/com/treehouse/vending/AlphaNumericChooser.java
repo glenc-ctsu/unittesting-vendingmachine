@@ -1,4 +1,4 @@
-package com.teamtreehouse.vending;
+package com.treehouse.vending;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -1,4 +1,4 @@
-package com.teamtreehouse.vending;
+package com.treehouse.vending;
 
 public interface Notifier {
     void onSale(Item item);

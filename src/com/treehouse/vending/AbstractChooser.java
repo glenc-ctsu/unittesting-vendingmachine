@@ -1,4 +1,4 @@
-package com.teamtreehouse.vending;
+package com.treehouse.vending;
 
 public abstract class AbstractChooser {
     private final int maxRows;
